@@ -58,11 +58,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans          &trans            &trans      &trans           &trans      &trans                               &trans       &trans     &trans     &trans            &trans            &trans
-&kp LA(N7)      &kp LA(N0)        &kp LS(N8)  &kp LA(N8)       &kp RA(N9)  &kp LS(N9)                           &trans       &trans     &kp LA(Q)  &trans            &trans            &trans
-&kp EXCL        &kp LS(NUMBER_2)  &kp HASH    &kp DOLLAR       &kp PRCNT   &kp LS(AMPERSAND)                    &trans       &kp LEFT   &kp UP     &kp DOWN          &kp RIGHT         &trans
-&kp LEFT_SHIFT  &kp KP_PLUS       &kp EQUAL   &kp KP_MULTIPLY  &kp LS(N0)  &kp LA(Q)          &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp BSLH
-                                              &trans           &trans      &trans             &trans    &trans  &trans       &trans     &trans
+&trans          &trans            &trans      &trans           &trans      &trans                               &trans       &trans         &trans     &trans            &trans            &trans
+&kp LA(N7)      &kp LA(N0)        &kp LS(N8)  &kp LA(N8)       &kp RA(N9)  &kp LS(N9)                           &kp LS(N7)   &kp BACKSLASH  &kp LA(Q)  &trans            &trans            &trans
+&kp EXCL        &kp LS(NUMBER_2)  &kp HASH    &kp DOLLAR       &kp PRCNT   &kp LS(AMPERSAND)                    &trans       &kp LEFT       &kp UP     &kp DOWN          &kp RIGHT         &trans
+&kp LEFT_SHIFT  &kp KP_PLUS       &kp EQUAL   &kp KP_MULTIPLY  &kp LS(N0)  &kp LA(Q)          &trans    &trans  &kp KP_PLUS  &kp MINUS      &kp EQUAL  &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp BSLH
+                                              &trans           &trans      &trans             &trans    &trans  &trans       &trans         &trans
             >;
         };
     };
